@@ -97,8 +97,35 @@ D:\Nerunja\GitHub\public> dir
 Mode                LastWriteTime     Length Name
 ----                -------------     ------ ----
 d----        05-04-2015     17:17            java8examples
-d----        05-04-2015     18:07            nerunja		(<-- this folder is created by git clone https://github.com/nerunja/nerunja.git)
+d----        05-04-2015     18:07            nerunja		(<-- this folder is created in local by git clone https://github.com/nerunja/nerunja.git)
 -a---        05-04-2015     18:05       2268 eclipse_git(hub).txt
 
+
+-----------------------------
+to mofify file and commit
+
+D:\Nerunja\GitHub\public\nerunja [master +0 ~1 -0]> git commit -am "added ssh key"
+[master efefac1] added ssh key
+ 1 file changed, 6 insertions(+)
+ 
+																#git commit only commits locally. git push only uploads to repo
+ 
+D:\Nerunja\GitHub\public\nerunja [master]> git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.86 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+To https://github.com/nerunja/nerunja.git
+   f4e704e..efefac1  master -> master
+D:\Nerunja\GitHub\public\nerunja [master]>
+
+-----------------------------
+
+even after the modifications in local file, 'git push' without a 'git commit' will print 'Everything up-to-date' as below. 
+
+D:\Nerunja\GitHub\public\nerunja [master]> git push
+Everything up-to-date
+D:\Nerunja\GitHub\public\nerunja [master +0 ~1 -0]>
 
 -----------------------------
