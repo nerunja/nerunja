@@ -120,3 +120,31 @@ Everything up-to-date
 D:\Nerunja\GitHub\public\nerunja [master +0 ~1 -0]>
 
 -----------------------------
+git pull
+
+
+D:\Nerunja\GitHub\public\nerunja [master]> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+D:\Nerunja\GitHub\public\nerunja [master]> git commit -m "test"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   eclipse_git(hub).txt
+
+no changes added to commit
+D:\Nerunja\GitHub\public\nerunja [master +0 ~1 -0]> git push
+To https://github.com/nerunja/nerunja.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/nerunja/nerunja.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+D:\Nerunja\GitHub\public\nerunja [master +0 ~1 -0]>
+
+-----------------------------
