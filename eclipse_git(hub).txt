@@ -1,0 +1,98 @@
+https://github.com/
+nerunjakumar.s******@gmail.com
+nerunja
+onecaponenumonespecial
+
+https://github.com/nerunja/java8examples.git
+
+
+1. create a new java project in eclipse
+2. create / add from java source files
+3. open git shell and do the following
+> cd to the directory of above java project 
+> git init
+> git remote add origin https://github.com/nerunja/java8examples.git		#git remote add origin https://github.com/[username]/[reponame].git
+> git add . 																# this adds all the files
+> git commit -a -m "Initial commit" 										# this stages your files locally for commit.  # they haven't actually been pushed yet
+
+FROM BROWSER do the following
+https://github.com/ 
+login as nerunja\onecaponenumonespecial
+Create new repository java8examples by clicking [+] -> New Repository
+
+> git push -u origin --all													# upload files to github
+
+D:\Nerunja\GitHub\public\java8examples [master]> git push -u origin --all
+Counting objects: 22, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 11.68 KiB | 0 bytes/s, done.
+Total 22 (delta 0), reused 0 (delta 0)
+To https://github.com/nerunja/java8examples.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+D:\Nerunja\GitHub\public\java8examples [master]>
+
+
+-------
+
+after modifiying any files
+
+D:\Nerunja\GitHub\public\java8examples\src [master +0 ~2 -0]> git commit -am "updated"
+[master e07b7cf] updated
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rewrite bin/CollectionsSort.class (71%)
+D:\Nerunja\GitHub\public\java8examples\src [master]>
+
+
+git -a automatically adds the changes files for staging (to upload)
+
+-------
+To CLONE Java project in Eclipse from git repo
+
+From eclipse 
+
+File --> Import
+Git --> Project from Git
+Clone URI
+NEXT
+URI: https://github.com/nerunja/java8examples.git
+Username: nerunja
+Password: onecaponenumonespecial
+NEXT
+Select [master] branch
+NEXT
+Choose the local directory to import project into
+
+after importing eclipse will show project name as java8examples [java8examples master]
+
+any changes in .java files can be committed by
+right click on .java file --> Team --> Commit
+
+
+--------------------
+
+To clone a project directly from command linek, open git shell and from command prompt
+
+
+D:\Nerunja\GitHub\public> git clone https://github.com/nerunja/nerunja.git
+Cloning into 'nerunja'...
+remote: Counting objects: 4, done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 4
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+
+D:\Nerunja\GitHub\public> dir
+
+
+    Directory: D:\Nerunja\GitHub\public
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----        05-04-2015     17:17            java8examples
+d----        05-04-2015     18:07            nerunja		(<-- this folder is created by git clone https://github.com/nerunja/nerunja.git)
+-a---        05-04-2015     18:05       2268 eclipse_git(hub).txt
+
+
+-----------------------------
