@@ -3,15 +3,6 @@ nerunjakumar.s******@gmail.com
 nerunja
 onecaponenumonespecial
 
-https://github.com/nerunja/java8examples.git
-
-The following SSH Public key was added to your account:
-GitHub for Windows - neruns dell laptop
-90:10:7a:41:4e:c6:b1:8b:ba:a4:64:56:3a:19:c9:dc
-If you believe this key was added in error, you can remove the key and disable
-access at the following location:
-https://github.com/settings/ssh
-
 1. create a new java project in eclipse
 2. create / add from java source files
 3. open git shell and do the following
